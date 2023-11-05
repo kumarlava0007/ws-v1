@@ -1,0 +1,124 @@
+.navigationCompMainContainer {
+    width: 100vw;
+    height: 7vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigationCompContainer {
+    width: 90vw;
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigationCompContainerLogo {
+    height: 100%;
+}
+
+.navigationCompNavsCompOne {
+    width: 60vw;
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .navigationCompNavsCompOne {
+        display: none;
+    }
+}
+
+.navigationCompNavsCompTwo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .navigationCompNavsCompTwo {
+        display: none;
+    }
+}
+
+.menuImage {
+    height: 60%;
+}
+
+
+.navigationCompNavs {
+    margin-right: 10%;
+}
+
+
+
+.navLinks {
+    padding: 20px;
+    font-weight: bold;
+}
+
+.navLinks {
+    text-decoration: none;
+    color: #2857a2;
+    
+}
+
+.logoImage {
+    height: 100%;
+}
+
+.navigationCompSocialsCont {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.navigationCompSocials {
+    height: 60%;
+}
+
+
+.sideBarClose {
+    display: none;
+}
+
+.sideBarOpen {
+    margin-top: 7vh;
+    width: 100vw;
+    height: 30vh;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    transition: top 1s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sideBarNavs {
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sideBarNavsSocialsCont {
+    height: 15%;
+}
+
+.sideBarNavsSocials {
+    height: 100%;
+}

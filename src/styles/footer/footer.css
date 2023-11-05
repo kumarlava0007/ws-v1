@@ -1,0 +1,14 @@
+.footerCompMainCont {
+    width: 100vw;
+    height: 40vh;
+    background: #262626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerCompCont {
+    width: 90%;
+    height: 90%;
+    color: white;
+}

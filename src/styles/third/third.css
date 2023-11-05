@@ -1,0 +1,99 @@
+.t_thirdCompMainCont {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: rgba(33, 35, 38, 0.3) 0px 10px 10px -10px;
+}
+
+@media (max-width: 768px) {
+    .t_thirdCompMainCont {
+        height: auto;
+    }
+}
+
+.t_thirdCompCont {
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .t_thirdCompCont {
+        flex-direction: column;
+    }
+}
+
+
+
+.t_thirdCompFirst {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .t_thirdCompFirst {
+        width: 100%;
+    }
+}
+
+.t_thirdCompFirstImg {
+    height: 60%;
+}
+
+@media (max-width: 768px) {
+    .t_thirdCompFirstImg {
+        width: auto;
+        height: 70%;
+    }
+}
+
+.t_thirdCompSecond {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .t_thirdCompSecond {
+        width: 90%;
+    }
+}
+
+.t_thirdCompSecondContent {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+@media (max-width: 768px) {
+    .t_thirdCompSecondContent {
+        justify-content: flex-start;
+    }
+}
+
+.t_thirdCompSecondContent .textTagOne {
+    color: #f9870d;
+    font-family: 'Roboto Slab';
+}
+
+.t_textTagTwo {
+    padding: 30px;
+    background-color: #EEEEEE;
+    border-radius: 10px 20px 30px 40px/30px;
+}
